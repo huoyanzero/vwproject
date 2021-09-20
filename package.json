@@ -1,0 +1,20 @@
+{
+  "name": "project0919",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "client": "npm start --prefix client",
+    "start": "node index.js",
+    "dev": "concurrently \"npm start\" \"npm run client\"",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "apollo": "^2.33.6",
+    "apollo-server": "^3.3.0",
+    "concurrently": "^6.2.1",
+    "node": "^16.9.1"
+  }
+}
