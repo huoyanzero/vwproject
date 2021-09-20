@@ -4,9 +4,9 @@
   "description": "",
   "main": "index.js",
   "scripts": {
-    "client1": "npm start --prefix client1",
+    "client": "npm start --prefix client",
     "start": "node index.js",
-    "dev": "concurrently \"npm start\" \"npm run client1\"",
+    "dev": "concurrently \"npm start\" \"npm run client\"",
     "test": "echo \"Error: no test specified\" && exit 1"
   },
   "author": "",
